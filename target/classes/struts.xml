@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN" "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <!-- Definir el paquete para el conjunto de acciones -->
+    <package name="default" extends="struts-default">
+        
+        <!-- Acción para mostrar el formulario (index.jsp) -->
+        <action name="formularioRegistro" class="sise.com.pe.struts1.action.Registro" method="input">
+            <result name="input">/index.jsp</result>  <!-- Página de formulario -->
+        </action>
+
+        <!-- Acción para procesar el formulario (registro) -->
+        <action name="registro" class="sise.com.pe.struts1.action.Registro">
+            <result name="success">/exito.jsp</result> <!-- Página de éxito después del registro -->
+            <result name="input">/index.jsp</result>  <!-- Vuelve al formulario en caso de error -->
+        </action>
+        
+    </package>
+</struts>
