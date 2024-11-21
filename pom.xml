@@ -27,8 +27,14 @@
         <dependency>
     <groupId>org.apache.struts</groupId>
     <artifactId>struts2-core</artifactId>
+<<<<<<< HEAD
     <version>2.5.14.1</version>
 </dependency>
+=======
+    <version>6.6.1</version>
+            <type>jar</type>
+        </dependency>
+>>>>>>> 5c34f23bec10ea969013bb5b99aff4b83edf0f19
 
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
@@ -40,8 +46,17 @@
     <artifactId>log4j-api</artifactId>
     <version>${log4j2.version}</version>
 </dependency>
+<<<<<<< HEAD
 
 
+=======
+        <dependency>
+            <groupId>org.andromda.cartridges</groupId>
+            <artifactId>andromda-bpm4struts-cartridge</artifactId>
+            <version>3.4</version>
+            <type>jar</type>
+        </dependency>
+>>>>>>> 5c34f23bec10ea969013bb5b99aff4b83edf0f19
     </dependencies>
     
      <build>
@@ -52,7 +67,11 @@
             <artifactId>jetty-maven-plugin</artifactId>
             <version>9.4.7.v20170914</version>
             <configuration>
+<<<<<<< HEAD
                
+=======
+              
+>>>>>>> 5c34f23bec10ea969013bb5b99aff4b83edf0f19
                 <webApp>
                     <contextPath>/${build.finalName}</contextPath>
                 </webApp>

@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 C:\Users\aaron\Desktop\Practica\src\main\java\sise\com\pe\struts1\model\Usuario.java
 C:\Users\aaron\Desktop\Practica\src\main\java\sise\com\pe\struts1\action\Registro.java
 C:\Users\aaron\Desktop\Practica\src\main\java\sise\com\pe\struts1\resources\JakartaEE8Resource.java
 C:\Users\aaron\Desktop\Practica\src\main\java\sise\com\pe\struts1\JakartaRestConfiguration.java
+=======
+C:\Users\aaron\Documents\NetBeansProjects\STRUTS1\src\main\java\sise\com\pe\struts1\resources\JakartaEE8Resource.java
+C:\Users\aaron\Documents\NetBeansProjects\STRUTS1\src\main\java\sise\com\pe\struts1\JakartaRestConfiguration.java
+C:\Users\aaron\Documents\NetBeansProjects\STRUTS1\src\main\java\sise\com\pe\struts1\action\Register.java
+C:\Users\aaron\Documents\NetBeansProjects\STRUTS1\src\main\java\sise\com\pe\struts1\model\Person.java
+>>>>>>> 5c34f23bec10ea969013bb5b99aff4b83edf0f19
